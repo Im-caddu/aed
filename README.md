@@ -16,4 +16,4 @@ print("Hello world")
 ```
 
 
-![Professor](https://github.com/darlonv.png)
+![Macaco de Óculos](https://www.paisefilhos.com.br/media/_versions/legacy/0/1/84e6cc54f1d3000e3bd2dd0cc4a5a3458a9eaa0f_widexl.jpg)
