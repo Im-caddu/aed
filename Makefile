@@ -6,10 +6,6 @@ build:
 	javac -d bin aulas/*.java
 	javac -d bin libs/*.java
 
-aulas:
-	javac -d bin aulas/*.java
-	java -cp bin aulas/*
-
 run:
 	java -cp bin Main
 

@@ -1,6 +1,12 @@
 package aulas;
 
 public class Aula23 {
+
+    public static void aula() {
+        System.out.println("++ Aula do dia 20/08/2024 ++");
+
+        main(null);
+    }
     public static void main(String[] args) {
         String st1, st2, st3;
         int i;
