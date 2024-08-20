@@ -3,8 +3,12 @@ all: build run
 
 build:
 	javac -d bin Main.java
-	javac -d bin aulas/Aula20.java
+	javac -d bin aulas/*.java
 	javac -d bin libs/*.java
+
+aulas:
+	javac -d bin aulas/*.java
+	java -cp bin aulas/*
 
 run:
 	java -cp bin Main
