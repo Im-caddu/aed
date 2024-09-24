@@ -8,6 +8,7 @@ public class Aula27 {
 
         // exLerInteiro();
         exLeituraVetorInteiro();
+        exBuscarPosicao();
     }
 
     public static void exLeituraVetorInteiro() {
@@ -21,4 +22,14 @@ public class Aula27 {
         Vetores.mostrar(valores);
     }
 
+    public static void exBuscarPosicao() {
+        int[] valores = {1, 2, 3, 4, 5, 4, 3, 2, 1};
+        int valor = 0;
+        int pos_inicial = 0;
+        int pos;
+
+        pos = Vetores.obterPosicao(valores, valor, pos_inicial);
+
+        System.out.println(pos);
+    }
 }

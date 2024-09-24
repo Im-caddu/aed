@@ -37,4 +37,15 @@ public class Vetores {
 
         return valores;
     }
+
+    public static int obterPosicao(int[] vetor, int valor_buscar, int pos_inicial) {
+        int i;
+        
+        for (i = pos_inicial; i < vetor.length; i++){
+            if (vetor[i] == valor_buscar) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
