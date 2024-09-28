@@ -25,10 +25,6 @@ public class Bim2R1 {
         int calc;
 
         calc = x % y;
-        
-        // if (x>y) {
-        //     return mod(x-y, y);
-        // }
 
         if (x<y) {
             return x;
