@@ -7,8 +7,8 @@ public class Main {
         //System.out.println("--------------------------------------");
         //Aula23.aula();
         //System.out.println("--------------------------------------");
-        //ExSenhaValida.aula();
+        ExSenhaValida.aula();
         //System.out.println("--------------------------------------");
-        Aula27.aula();
+        //Aula27.aula();
     }
 }
