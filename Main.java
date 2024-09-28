@@ -1,4 +1,5 @@
 import aulas.*;
+import trabalhos.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,8 +8,11 @@ public class Main {
         //System.out.println("--------------------------------------");
         //Aula23.aula();
         //System.out.println("--------------------------------------");
-        ExSenhaValida.aula();
+        //ExSenhaValida.aula();
         //System.out.println("--------------------------------------");
         //Aula27.aula();
+
+        //Recuperação
+        Bim2R1.trabalho();
     }
 }
