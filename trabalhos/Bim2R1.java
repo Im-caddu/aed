@@ -36,6 +36,6 @@ public class Bim2R1 {
 
         return calc;
 
-        System.out.println("+ calc +");
+        //System.out.println("+ calc +");
     }
 }

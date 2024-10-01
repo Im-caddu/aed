@@ -13,6 +13,9 @@ public class Main {
         //Aula27.aula();
 
         //Recuperação
-        Bim2R1.trabalho();
+        //Bim2R1.trabalho();
+        Bim2R2.testesMDCRec();
+        Bim2R2.testesPotenciaRec();
+        Bim2R2.testesFibonacciRec();
     }
 }
