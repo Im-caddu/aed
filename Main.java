@@ -17,6 +17,7 @@ public class Main {
         // Bim2R2.testesMDCRec();
         // Bim2R2.testesPotenciaRec();
         // Bim2R2.testesFibonacciRec();
-        Aula34.aula();
+        // Aula34.aula();
+        Aula36.aula();
     }
 }
