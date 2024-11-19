@@ -143,4 +143,30 @@ public class Vetores {
             trocar(v, i, menor_pos);
         }
     }
+
+    public static int[] ordenarMergeSort(int[] va, int[] vb) {
+        int[] vc;
+        vc = new int[va.length + vb.length];
+        
+        int i = 0, j = 0, k = 0;
+
+        while (i < va.length && j < vb.length) {
+            if (va[i] < vb[j]) {
+                vc[k] = va[i]; i++;
+            } else {
+                vc[k] = vb[j]; j++;
+            }
+            k++;
+        }
+
+        while (i < va.length) {
+            vc[k] = va[i]; i++; k++;
+        }
+
+        while (j < vb.length) {
+            vc[k] = vb[j]; j++; k++;
+        }
+
+        return vc;
+    }
 }
