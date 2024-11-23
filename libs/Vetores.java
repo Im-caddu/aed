@@ -204,4 +204,29 @@ public class Vetores {
 
         return v_ordenado;
     }
+
+    public static int quickSortPartCormen(int[] v, int ini, int fim) {
+        int pivot = v[fim];
+        int pos_menores = ini - 1;
+
+        for (int i = ini; i < fim; i++) {
+            if (v[i] <= pivot) {
+                pos_menores++;
+                trocar(v, pos_menores, i);
+            }
+        }
+
+        pos_menores++;
+        trocar(v, pos_menores, fim);
+        return pos_menores;
+    }
+
+    public static int[] ordenarQuickSort(int[] v, int ini, int fim) {
+        if (fim - ini > 1) {
+            int pos_pivot = quickSortPartCormen(v, ini, fim);
+            ordenarQuickSort(v, ini, pos_pivot - 1);
+            ordenarQuickSort(v, pos_pivot + 1, fim);
+        }
+        return v;
+    }
 }
