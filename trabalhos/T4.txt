@@ -1,0 +1,13 @@
+tam = 1000
+
+vetor_aleatorios = gerarValoresAleatorios();
+
+vetor_copia = vetor_aleatorios;
+
+tempo
+    bubblesort(vetor_copia);
+
+vetor_copia;
+
+tempo
+    insertionsort(vetor_copia);

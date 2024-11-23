@@ -144,7 +144,7 @@ public class Vetores {
         }
     }
 
-    public static int[] ordenarMergeSort(int[] va, int[] vb) {
+    public static int[] merge(int[] va, int[] vb) {
         int[] vc;
         vc = new int[va.length + vb.length];
         
@@ -168,5 +168,40 @@ public class Vetores {
         }
 
         return vc;
+    }
+
+    public static int[] subVetor(int[] v, int ini, int fim) {
+        int i, k = 0;
+
+        int[] sub_vetor = new int[fim - ini];
+
+        for (i = ini; i < fim; i++) {
+            sub_vetor[k] = v[i];
+            k++;
+        }
+
+        return sub_vetor;
+    }
+
+    public static int[] ordenarMergeSort(int[] v) {
+        int[] ve_ordenado, vd_ordenado, v_ordenado;
+        
+        if (v.length <= 1) {
+            return v;
+        }
+
+        int[] v_esq, v_dir;
+        int meio;
+
+        meio = v.length/2;
+        v_esq = subVetor(v, 0, meio);
+        v_dir = subVetor(v, meio, v.length);
+
+        ve_ordenado = ordenarMergeSort(v_esq);
+        vd_ordenado = ordenarMergeSort(v_dir);
+
+        v_ordenado = merge(ve_ordenado, vd_ordenado);
+
+        return v_ordenado;
     }
 }

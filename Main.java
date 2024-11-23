@@ -19,6 +19,7 @@ public class Main {
         // Bim2R2.testesFibonacciRec();
         // Aula34.aula();
         // Aula36.aula();
-        Aula38.aula();
+        // Aula38.aula();
+        Aula39.aula();
     }
 }
