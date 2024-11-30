@@ -1,4 +1,5 @@
 import aulas.*;
+import libs.Vetores;
 import trabalhos.*;
 
 public class Main {
@@ -20,6 +21,7 @@ public class Main {
         // Aula34.aula();
         // Aula36.aula();
         // Aula38.aula();
-        Aula39.aula();
+        // Aula39.aula();
+        Aula40.aula();
     }
 }
