@@ -254,7 +254,7 @@ public class Vetores {
         return resultado;
     }
 
-    public static int[] ordenarRadixSort(int[] v, int k) {
+    public static int[] ordenarCountingSort(int[] v, int k) {
         int[] contadores = new int[10];
         int[] contadores_acumulado = new int[10];
         int[] resultado = new int[v.length];
@@ -277,6 +277,39 @@ public class Vetores {
         }
 
         return resultado;
+    }
+
+    public static int maior(int[] v) {
+        int maior_valor = v[0];
+        int i;
+
+        for (i=1; i<v.length; i++) {
+            if (v[i] > maior_valor) {
+                maior_valor = v[i];
+            }
+        }
+
+        return maior_valor;
+    }
+
+    public static int [] ordenarRadixSort(int[] v) {
+        int maior_valor = Vetores.maior(v);
+        int k = 1, i;
+
+        while (maior_valor > Matematica.potencia(10, k)) {
+            k++;
+        }
+
+        System.out.println("K: " + k);
+
+        for (i=1; i<=4; i++) {
+            v = ordenarCountingSort(v, i);
+        }
+        
+        // v = ordenarCountingSort(v, 1);
+        // v = ordenarCountingSort(v, 2);
+
+        return v;
     }
 
 }

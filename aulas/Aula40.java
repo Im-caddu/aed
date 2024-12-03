@@ -27,7 +27,7 @@ public class Aula40 {
     }
 
     public static void ex02() {
-        System.out.println("## Radix Sort ##");
+        System.out.println("## Counting Sort com Posição ##");
 
         int meio;
 

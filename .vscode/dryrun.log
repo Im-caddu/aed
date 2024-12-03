@@ -1,9 +1,11 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/aluno/Documentos/aed'
+ 
 javac -d bin Main.java
 javac -d bin aulas/*.java
 javac -d bin libs/*.java
 javac -d bin trabalhos/*.java
 java -cp bin Main
+ 
 make: Leaving directory '/home/aluno/Documentos/aed'
  

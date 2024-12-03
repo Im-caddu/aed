@@ -5,8 +5,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Nov 22 22:46:40 2024
+# Make data base, printed on Tue Dec  3 20:29:42 2024
 
 # Variables
 
@@ -25,13 +26,9 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
 VSCODE_CWD = /home/aluno
 # environment
-WINDOWPATH = 2
-# environment
 NVM_DIR = /home/aluno/.nvm
 # default
 MAKE_COMMAND := make
-# environment
-APPLICATIONINSIGHTS_CONFIGURATION_CONTENT = {}
 # environment
 QT_ACCESSIBILITY = 1
 # automatic
@@ -45,7 +42,7 @@ PWD = /home/aluno/Documentos/aed
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -57,7 +54,7 @@ VSCODE_CODE_CACHE_PATH = /home/aluno/.config/Code/CachedData/903b1e9d8990623e3d7
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1001/gdm/Xauthority
+XAUTHORITY = /run/user/1001/.mutter-Xwaylandauth.LVU6X2
 # default
 .LOADED := 
 # default
@@ -67,11 +64,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/aluno/Documentos/aed
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# environment
 LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = file:///opt/vscode_extensions/ms-ceintl.vscode-language-pack-pt-br-1.85.2024021409/translations/extensions/vscode.json-language-features.i18n.json
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -80,28 +73,37 @@ MFLAGS = -pqrR
 SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
 # default
 .SHELLFLAGS := -c
+ 
 # environment
 NVM_BIN = /home/aluno/.nvm/versions/node/v20.11.1/bin
 # environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+ 
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
+ 
 XDG_SESSION_DESKTOP = ubuntu
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
+ 
 # automatic
 @F = $(notdir $@)
 # environment
+ 
 PT8HOME = /opt/pt
+ 
 # environment
-VSCODE_PID = 67417
+VSCODE_PID = 36060
+ 
 # environment
-XDG_SESSION_TYPE = x11
+XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/brj4040trq:@/tmp/.ICE-unix/2316,unix/brj4040trq:/tmp/.ICE-unix/2316
+SESSION_MANAGER = local/brj4040trq:@/tmp/.ICE-unix/2099,unix/brj4040trq:/tmp/.ICE-unix/2099
 # automatic
 *F = $(notdir $*)
 # environment
@@ -128,6 +130,8 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 SHLVL = 0
 # environment
 MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
@@ -139,15 +143,15 @@ LANGUAGE = pt_BR:pt:en
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = da4d24126b874ba7bf2757df31ff4f41
+INVOCATION_ID = a1832fcd8b954170a69cc4d476dae0c5
 # environment
 USERNAME = aluno
+# environment
+GNOME_SETUP_DISPLAY = :1
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
-# environment
-GTK_IM_MODULE = ibus
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # automatic
@@ -165,9 +169,9 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2336
+SYSTEMD_EXEC_PID = 2125
 # environment
-DISPLAY = :1
+DISPLAY = :0
 # environment
 USER = aluno
 # environment
@@ -175,17 +179,15 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1994
+MANAGERPID = 1950
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 67417
+GIO_LAUNCHED_DESKTOP_FILE_PID = 36060
 # environment
 _ = /usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # environment
-GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
-# environment
-JOURNAL_STREAM = 8:28420
+JOURNAL_STREAM = 8:28144
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -198,6 +200,8 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1001/vscode-9b00a1e7-1.86-main.sock
+# environment
+IM_CONFIG_PHASE = 1
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -211,7 +215,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 GDMSESSION = ubuntu
 # variable set hash-table stats:
-# Load=100/1024=10%, Rehash=0, Collisions=3/133=2%
+# Load=98/1024=10%, Rehash=0, Collisions=2/131=2%
 
 # Pattern-specific Variable Values
 
@@ -219,7 +223,7 @@ GDMSESSION = ubuntu
 
 # Directories
 
-# . (device 37, inode 3410601): 13 files, no impossibilities.
+# . (device 37, inode 2886369): 13 files, no impossibilities.
 
 # 13 files, no impossibilities in 1 directories.
 
@@ -232,7 +236,7 @@ GDMSESSION = ubuntu
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2024-11-22 21:04:38.255525135
+#  Last modified 2024-12-03 19:23:48.937501487
 #  File has been updated.
 #  Successfully updated.
 
@@ -288,7 +292,6 @@ build:
 #  Needs to be updated (-q is set).
 # automatic
 # @ := build
- 
 # automatic
 # * := 
 # automatic
@@ -339,6 +342,6 @@ t3: t3-build
 # strcache performance: lookups = 40 / hit rate = 40%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Fri Nov 22 22:46:41 2024
+# Finished Make data base on Tue Dec  3 20:29:42 2024
 
  
