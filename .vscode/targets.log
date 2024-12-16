@@ -1,221 +1,216 @@
-make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.3
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Dec  3 20:29:42 2024
+# Make data base, printed on Sun Dec 15 23:00:39 2024
 
 # Variables
 
 # environment
-GDK_BACKEND = x11
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Mi 
+crosoft\jdk-21.0.5.11-hotspot\
 # environment
 LC_ALL = C
 # environment
-GNOME_SHELL_SESSION_MODE = ubuntu
+USERPROFILE = C:\Users\caddu
 # environment
-SSH_AGENT_LAUNCHER = gnome-keyring
+EFC_14044 = 1
 # environment
-GJS_DEBUG_OUTPUT = stderr
+LOCALAPPDATA = C:\Users\caddu\AppData\Local
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
-VSCODE_CWD = /home/aluno
+VSCODE_CWD = C:\Users\caddu\AppData\Local\Programs\Microsoft VS Code
 # environment
-NVM_DIR = /home/aluno/.nvm
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
-MAKE_COMMAND := make
-# environment
-QT_ACCESSIBILITY = 1
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
-@D = $(patsubst %/,%,$(dir $@))
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15580_RSHMDWXPGKPSQOMX
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
-# environment
-PWD = /home/aluno/Documentos/aed
 # automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
-^D = $(patsubst %/,%,$(dir $^))
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # automatic
 %F = $(notdir $%)
 # environment
-NVM_INC = /home/aluno/.nvm/versions/node/v20.11.1/include/node
-# environment
-VSCODE_CODE_CACHE_PATH = /home/aluno/.config/Code/CachedData/903b1e9d8990623e3d7da1df3d33db3e42d80eda
+VSCODE_CODE_CACHE_PATH = C:\Users\caddu\AppData\Roaming\Code\CachedData\f1a4fb101478ce6ec82fe9627c43efbf9e98c813
 # environment
 LANG = C
-# environment
-XAUTHORITY = /run/user/1001/.mutter-Xwaylandauth.LVU6X2
 # default
 .LOADED := 
+# environment
+TMP = C:\Users\caddu\AppData\Local\Temp
 # default
-.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+.INCLUDE_DIRS := .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
-# makefile
-CURDIR := /home/aluno/Documentos/aed
 # environment
-LESSOPEN = | /usr/bin/lesspipe %s
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = C:\Users\caddu\OneDrive
+# makefile
+CURDIR := e:/Documentos/vscode clone/aed
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = file:///c%3A/Users/caddu/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.95.2024110721/translations/extensions/vscode.json-language-features.i18n.json
 # automatic
-*D = $(patsubst %/,%,$(dir $*))
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
 # environment
 MFLAGS = -pqrR
-# environment
-SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
 # default
 .SHELLFLAGS := -c
- 
 # environment
-NVM_BIN = /home/aluno/.nvm/versions/node/v20.11.1/bin
-# environment
-WAYLAND_DISPLAY = wayland-0
-# environment
- 
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
- 
-XDG_SESSION_DESKTOP = ubuntu
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
- 
 # automatic
 @F = $(notdir $@)
 # environment
- 
-PT8HOME = /opt/pt
- 
-# environment
-VSCODE_PID = 36060
- 
-# environment
-XDG_SESSION_TYPE = wayland
+VSCODE_PID = 15580
 # automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-SESSION_MANAGER = local/brj4040trq:@/tmp/.ICE-unix/2099,unix/brj4040trq:/tmp/.ICE-unix/2099
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
 # automatic
-<D = $(patsubst %/,%,$(dir $<))
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"pt-br","osLocale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"8ab7ffa055eac3bddf2b835f93d651d0.pt-br","_translationsConfigFile":"/home/aluno/.config/Code/clp/8ab7ffa055eac3bddf2b835f93d651d0.pt-br/tcf.json","_cacheRoot":"/home/aluno/.config/Code/clp/8ab7ffa055eac3bddf2b835f93d651d0.pt-br","_resolvedLanguagePackCoreLocation":"/home/aluno/.config/Code/clp/8ab7ffa055eac3bddf2b835f93d651d0.pt-br/903b1e9d8990623e3d7da1df3d33db3e42d80eda","_corruptedFile":"/home/aluno/.config/Code/clp/8ab7ffa055eac3bddf2b835f93d651d0.pt-br/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"userLocale":"pt-br","osLocale":"pt-br","resolvedLanguage":"pt-br","defaultMessagesFile":"C:\\Users\\caddu\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","languagePack":{"translationsConfigFile":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br\\tcf.json","messagesFile":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br\\f1a4fb101478ce6ec82fe9627c43efbf9e98c813\\nls.messages.json","corruptMarkerFile":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br\\corrupted.info"},"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"a05cef9ea83e2669f97d4ff17d52938b.pt-br","_languagePackSupport":true,"_translationsConfigFile":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br\\f1a4fb101478ce6ec82fe9627c43efbf9e98c813","_corruptedFile":"C:\\Users\\caddu\\AppData\\Roaming\\Code\\clp\\a05cef9ea83e2669f97d4ff17d52938b.pt-br\\corrupted.info"}
 # default
-MAKE_HOST := x86_64-pc-linux-gnu
+MAKE_HOST := Windows32
 # environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# makefile
-SHELL = /bin/sh
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\caddu
 # default
 MAKECMDGOALS := all
 # environment
-XMODIFIERS = @im=ibus
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
-SHLVL = 0
+WINDIR = C:\WINDOWS
 # environment
 MAKELEVEL := 0
-# environment
-IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/aluno/.local/bin:/home/aluno/.nvm/versions/node/v20.11.1/bin:/home/aluno/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = C:\Program Files\Microsoft\jdk-21.0.5.11-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-8.0.432.6-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-21.0.5.11-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\caddu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\VDownloader;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\caddu\AppData\Local\Microsoft\WindowsApps;;C:\Users\caddu\spicetify-cli;C:\Users\caddu\AppData\Local\Microsoft\WindowsApps;C:\Users\caddu\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = CADDUZIN_PC
 # default
 MAKEFILES := 
-# environment
-LANGUAGE = pt_BR:pt:en
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = a1832fcd8b954170a69cc4d476dae0c5
+PROMPT = $P$G
 # environment
-USERNAME = aluno
+CHOCOLATEYLASTPATHUPDATE = 133699552373243121
 # environment
-GNOME_SETUP_DISPLAY = :1
+LOGONSERVER = \\CADDUZIN_PC
 # environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
+USERNAME = caddu
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
 # environment
-XDG_CURRENT_DESKTOP = Unity
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
-DESKTOP_SESSION = ubuntu
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+USERDOMAIN = CADDUZIN_PC
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-LOGNAME = aluno
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+OS = Windows_NT
 # makefile
 .DEFAULT_GOAL := all
-# environment
-SYSTEMD_EXEC_PID = 2125
-# environment
-DISPLAY = :0
-# environment
-USER = aluno
-# environment
-GTK_MODULES = gail:atk-bridge
 # default
-MAKE_VERSION := 4.3
+MAKE_VERSION := 4.4.1
 # environment
-MANAGERPID = 1950
+PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 36060
+USERDOMAIN_ROAMINGPROFILE = CADDUZIN_PC
 # environment
-_ = /usr/share/code/code
+NUMBER_OF_PROCESSORS = 4
 # environment
-XDG_RUNTIME_DIR = /run/user/1001
+PUBLIC = C:\Users\Public
 # environment
-JOURNAL_STREAM = 8:28144
+ASL.LOG = Destination=file
 # environment
-XDG_SESSION_CLASS = user
+APPDATA = C:\Users\caddu\AppData\Roaming
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+HOMEDRIVE = C:
 # environment
-HOME = /home/aluno
+PROCESSOR_ARCHITECTURE = x86
 # environment
-QT_IM_MODULE = ibus
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1001/vscode-9b00a1e7-1.86-main.sock
+TEMP = C:\Users\caddu\AppData\Local\Temp
 # environment
-IM_CONFIG_PHASE = 1
+VSCODE_IPC_HOOK = \\.\pipe\e466b604-1.95.3-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # default
 SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
 # environment
-XDG_MENU_PREFIX = gnome-
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
 # environment
-GDMSESSION = ubuntu
+PROCESSOR_REVISION = 9e09
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=2/131=2%
+# Load=99/1024=10%, Rehash=0, Collisions=11/130=8%
 
 # Pattern-specific Variable Values
 
@@ -223,7 +218,7 @@ GDMSESSION = ubuntu
 
 # Directories
 
-# . (device 37, inode 2886369): 13 files, no impossibilities.
+# . (key e:/Documentos/vscode clone/aed, mtime 1734314426): 13 files, no impossibilities.
 
 # 13 files, no impossibilities in 1 directories.
 
@@ -236,7 +231,8 @@ GDMSESSION = ubuntu
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2024-12-03 19:23:48.937501487
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2024-12-15 23:00:26
 #  File has been updated.
 #  Successfully updated.
 
@@ -329,19 +325,19 @@ t3: t3-build
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/28=0%
+# Load=10/1024=1%, Rehash=0, Collisions=0/29=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 181 B / avg = 7 B
-# current buf: size = 8162 B / used = 181 B / count = 24 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 149 B / avg = 6 B
+# current buf: size = 8174 B / used = 149 B / count = 22 / avg = 6 B
 
-# strcache performance: lookups = 40 / hit rate = 40%
+# strcache performance: lookups = 38 / hit rate = 42%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Tue Dec  3 20:29:42 2024
+# Load=22/8192=0%, Rehash=0, Collisions=0/38=0%
+# Finished Make data base on Sun Dec 15 23:00:39 2024
 
  
